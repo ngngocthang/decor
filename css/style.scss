@@ -1,0 +1,286 @@
+$cochunho: 12px;
+$maunen: #111;
+$mauchu: #f1f1f1;
+$gachchan: #c0bbbb52;
+$maudam: orange;
+*{margin: 0; padding: 0; font-family: "Open Sans",Arial, Helvetica, sans-serif} 
+body,html,header{
+	width: 100%;
+	height: 100%;
+}
+
+.top{
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	.topHeader{
+			width: 100%;
+		    height: 135px;
+		    background: $maunen;
+		.topHeader-contact{
+			    width: 100%;
+			    height: 50px;
+			    background: $maunen;
+			    color: $mauchu;
+			    line-height: 50px;
+			.topHeader-contact-info{
+				ul{
+						list-style: none;
+					li{
+						    display: inline-block;
+						    margin-right: 20px;
+						    font-size: 12px;
+						    letter-spacing: 1px;
+						i{
+							margin-right: 10px;
+    						color: orange;
+    						font-size: 16px;
+
+						}
+						strong{
+   							margin-left: 5px;
+    						color: orange;
+						}
+					}
+				}
+			}
+			.mxh{
+				i{
+					margin-right: 15px;
+				}
+			}
+		}
+		.topHeader-menu{
+			height: 84px;
+		    line-height: 84px;
+		    border-top: 1px solid $gachchan;
+		    transition: 0.4s;
+		    &.fixed{
+					position: fixed;
+					top: 0;
+					height: 50px;
+					width: 100%;
+					line-height: 50px;
+					background: #595858;
+					color: $maudam;
+					z-index: 9999;
+				}
+			.logo{
+				color: #f9f9f9;
+			    font-size: 34px;
+			    letter-spacing: 11px;
+			}
+			.menu{
+				a{
+					display: inline-block;
+				    padding: 0px 20px;
+				    text-decoration: none;
+				    color: $mauchu;
+				    font-size: 16px;
+				 &:hover{
+				 	color: orange;
+				 }
+				}
+			}
+			.nutMenu{
+				display: none;
+			}
+		}
+	}
+}
+#technique{
+		background: $maunen;
+	    width: 100%;
+	    height: 100%;
+	    color: $mauchu;
+	    padding-bottom: 100px;
+	    padding-top: 100px;
+	.cap{
+		width: 100%;
+    	height: 20%;
+		h1{
+		text-align: center;
+		}
+		.gachduoi{
+			width: 8px;
+		    height: 8px;
+		    margin: auto;
+		    margin-top: 50px;
+		    margin-bottom: 50px;
+		    border-radius: 100%;
+		    background: orange;
+		    position: relative;
+		    &:after{
+			content: "";
+			position: absolute;
+		    width: 300px;
+		    top: 3px;
+		    right: 20px;
+		    height: 1px;
+		    border-bottom: 1px solid $gachchan;
+		    }
+		    &:before{
+			content: "";
+			position: absolute;
+		    width: 300px;
+		    top: 3px;
+		    height: 1px;
+		    left: 20px;
+		    border-bottom: 1px solid $gachchan;
+		    }
+			span{
+
+			}
+		}
+	}
+	.technique-item{
+		overflow: hidden;
+   		padding: 0 15px;
+		h2{
+		font-size: 28px;
+    	margin-bottom: 20px;
+		}
+		p{
+		font-size: 12px;
+   	 	margin-bottom: 30px;
+		}
+		.img{
+			width: 100%;
+		    height: 220px;
+		    background-size: cover;
+		}
+	}
+}
+
+.section-b{
+	    background: #606060;
+    padding: 100px 0;
+    height: 100%;
+	#wrap-service{
+		h1.cap{
+		text-align: center;
+		color: $mauchu;
+		}
+		.gachduoi{    
+			width: 8px;
+		    height: 8px;
+		    margin: auto;
+		    margin-top: 30px;
+		    margin-bottom: 50px;
+		    border-radius: 100%;
+		    background: orange;
+		    position: relative;
+		}
+		.service{
+			ul{
+				list-style: none;
+				li.item-service{
+					.box-service{
+						text-align: center;
+					    width: 180px;
+					    height: 180px;
+					    border-radius: 100%;
+					    background: orange;
+					    line-height: 180px;
+					    /* margin-bottom: 50px; */
+					    position: relative;
+					    padding: auto;
+					    margin: auto;
+					    transition: 0.7s;
+    				&:hover{
+    					background: $maunen;
+    					color: #ddd;
+    				}
+						span{
+							font-size: 14px;
+							font-weight: 600;
+							color: #333;
+							text-transform: uppercase;
+
+						}
+						.box-border{
+							height: 49px;
+						    width: 0;
+						    border: 1px solid #ababab;
+						    position: absolute;
+						    left: 50%;
+						    opacity: 0;
+						    transition: 0.7s;
+						}
+					}
+				}
+			}
+		}
+		.tab-service{
+			    margin-top: 50px;
+			    border-top: 1px solid #ababab;
+			    padding: 50px 0;
+			    position: relative;
+			.tab-box{
+				position: absolute;
+				opacity: 0;
+				p{
+					font-size: $cochunho;
+					line-height: 22px;
+					margin-bottom: 23px;
+					color: #ddd;
+				}
+			&.active1{
+				opacity: 1;
+			}
+			}
+			#tab-wd{
+				
+			}
+			#tab-bd{
+				
+			}
+			#tab-event{
+				
+			}
+			#tab-about{
+				
+			}
+		}
+	}
+}
+
+.top .topHeader .topHeader-menu.fixed .menu a:hover{
+	color: lightblue;
+}
+
+.section-b #wrap-service .service ul li.item-service.active .box-service{
+	    background: none;
+    border: 2px solid $mauchu;
+    color: #ddd;
+}
+
+.section-b #wrap-service .service ul li.item-service.active .box-service span{
+    color: #ddd;
+}
+
+.section-b #wrap-service .service ul li.item-service .box-service:hover span{
+	color: #ddd;
+}
+
+.section-b #wrap-service .service ul li.item-service.active .box-service .box-border{
+	opacity: 1;
+}
+
+@import "stylemobile";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

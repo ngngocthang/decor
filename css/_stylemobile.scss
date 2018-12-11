@@ -1,0 +1,119 @@
+@media (max-width: 576px) {
+ *{margin:0;}
+ body{
+ 	background: $maunen;
+ }
+ .col-md-9.text-xs-right {
+    padding: 0;
+}
+	.top{
+	
+	.topHeader{
+			height: 86px;
+    		width: 100%;
+		.topHeader-contact{
+			    display: none;
+			.topHeader-contact-info{
+				ul{
+						
+					li{
+						   
+						i{
+							
+
+						}
+						strong{
+   							
+						}
+					}
+				}
+			}
+			.mxh{
+				i{
+				}
+			}
+		}
+		.topHeader-menu{
+				height: 86px;
+			&.fixed{
+				height: 84px;
+				line-height: 84px;
+			}
+			.logo{
+				
+			}
+			.menu{
+				opacity: 0;
+				visibility: hidden;
+				transition: 0.4s;
+				position: relative;
+				z-index: 999;
+				display: none;
+				a{
+					display: block;
+				    text-align: center;
+				    width: 100%;
+				    background: #595858;
+				&:hover{
+					color: lightblue;
+					background: #453d3a;
+				}
+				}
+			}
+			.menu.menuActive{
+				opacity: 1;
+				visibility: visible;
+				display: block;
+			}
+			.nutMenu {
+				display: block;
+    			position: absolute;
+			    top: -82px;
+			    right: 34px;
+			    color: #fff;
+			    font-size: 53px;
+			}
+		}
+	}
+}
+#technique{
+		overflow-x: hidden;
+		padding-bottom: 50px;
+	.cap{
+		
+		h1{
+		
+		}
+		.gachduoi{
+			
+		    &:after{
+			
+		    }
+		    
+		    }
+			span{
+
+			}
+		}
+	}
+	.technique-item{
+		
+		h2{
+		
+		}
+		p{
+		
+		}
+		.img{
+			margin-bottom: 30px;
+		}
+	}
+}
+
+.top .topHeader .topHeader-menu.fixed .nutMenu{
+	top: -83px;
+	right: 30px;
+	font-size: 50px;
+}
+
+
