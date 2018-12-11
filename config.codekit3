@@ -29,6 +29,226 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/1/1-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/1/1-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/1/1.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/1/1-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/1/css/_stylemobile.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/1/css/_stylemobile.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/1/css/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/1/css/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/1/css/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/1/css/style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/1/fonts/fontawesome-webfont.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/1/fonts/fontawesome-webfont.eot",
+		"oF": 0
+		},
+	"/1/fonts/fontawesome-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/1/fonts/fontawesome-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/1/fonts/fontawesome-webfont.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/1/fonts/fontawesome-webfont.ttf",
+		"oF": 0
+		},
+	"/1/fonts/fontawesome-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/1/fonts/fontawesome-webfont.woff",
+		"oF": 0
+		},
+	"/1/fonts/fontawesome-webfont.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/1/fonts/fontawesome-webfont.woff2",
+		"oF": 0
+		},
+	"/1/fonts/FontAwesome.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/1/fonts/FontAwesome.otf",
+		"oF": 0
+		},
+	"/1/fonts/glyphicons-halflings-regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/1/fonts/glyphicons-halflings-regular.ttf",
+		"oF": 0
+		},
+	"/1/images/5.png": {
+		"ft": 32768,
+		"iS": 925161,
+		"oA": 0,
+		"oAP": "/1/images/5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/1/images/decorcsm4.jpg": {
+		"ft": 16384,
+		"iS": 129307,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/1/images/decorcsm4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/1/images/hallowen.jpg": {
+		"ft": 16384,
+		"iS": 465334,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/1/images/hallowen.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/1/images/Home.jpg": {
+		"ft": 16384,
+		"iS": 1247669,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/1/images/Home.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/1/images/sinhnhat2.jpg": {
+		"ft": 16384,
+		"iS": 61990,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/1/images/sinhnhat2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/1/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/1/index.html",
+		"oF": 0
+		},
+	"/1/vendor/animate.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/1/vendor/animate-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/1/vendor/bootstrap.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/1/vendor/bootstrap-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/1/vendor/bootstrap.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/1/vendor/bootstrap-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/1/vendor/font-awesome.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/1/vendor/font-awesome-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/1/vendor/tether.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/1/vendor/tether.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/css/_stylemobile.scss": {
 		"aP": 0,
 		"bl": 0,
