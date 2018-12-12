@@ -108,6 +108,39 @@
 			margin-bottom: 30px;
 		}
 	}
+
+
+section.section-b{
+	height: auto;
+	background: none;
+	padding: 0;
+	box-sizing:border-box;
+	margin-bottom: 200px;
+	.item-service{
+		margin-bottom: 20px;
+	}
+	.tab-service{
+		margin:0;
+	}
+}
+
+.section-b #wrap-service .service ul li.item-service.active .box-service .box-border{
+	opacity: 0!important;
+}
+
+#wrap-product{
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+
+
+#wrap-product .product .btn-product{
+	width: auto;
+}
+
+#wrap-product .product .tab-product .item-product{
+	width: 100%;
 }
 
 .top .topHeader .topHeader-menu.fixed .nutMenu{
@@ -116,4 +149,4 @@
 	font-size: 50px;
 }
 
-
+}
