@@ -3,6 +3,114 @@
   padding: 0;
   font-family: "Open Sans",Arial, Helvetica, sans-serif; }
 
+.gachduoi:after {
+        content: "";
+        position: absolute;
+        width: 300px;
+        top: 3px;
+        right: 20px;
+        height: 1px;
+        border-bottom: 1px solid #c0bbbb52; }
+.gachduoi:before {
+        content: "";
+        position: absolute;
+        width: 300px;
+        top: 3px;
+        height: 1px;
+        left: 20px;
+        border-bottom: 1px solid #c0bbbb52; }
+
+i.done-login.fa.fa-times {
+    position: absolute;
+    top: 0px;
+    right: 2px;
+    color: #f1f1f1;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+div#dangnhap{
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+}
+
+div#dangnhap.login-on{
+  opacity: 1;
+  visibility: visible;
+}
+.nenlogin {
+    width: 100%;
+    height: 100%;
+    background: #3333338c;
+    z-index: 9991;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+div#login {
+    width: 350px;
+    /* height: 200px; */
+    background: #f1f1f1;
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    text-align: center;
+    /* padding: 20px 0; */
+    transform: translateX(-50%);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: #0b0909 0px 0px 19px 9px;
+    z-index: 9999;
+}
+
+div#login input {
+    color: #111111ad;
+    width: 180px;
+    border-radius: 3px;
+    padding-left: 5px;
+}
+
+div#login button {
+    margin-bottom: 20px;
+}
+
+div#login label {
+    margin-right: 10px;
+}
+
+div#login form {}
+
+div#login h3 {
+    font-size: 28px;
+    padding: 10px 0;
+    background: #333;
+    color: orange;
+    /* border-bottom: 1px solid #ababab; */
+    /* padding-bottom: 20px; */
+}
+
+div#backtotop {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    /* margin-top: 10px; */
+    background: #b5aaaa5c;
+    bottom:;
+    color: #ebebeb;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    z-index: 9999;
+}
+div#backtotop:hover{
+  background: orange;
+  color: #111;
+}
 div#copyright {
     height: 50px;
     line-height: 50px;
@@ -60,7 +168,8 @@ body, html, header {
   .top .topHeader {
     width: 100%;
     height: 135px;
-    background: #111; }
+    background: #111;
+     }
     .top .topHeader .topHeader-contact {
       width: 100%;
       height: 50px;
@@ -238,7 +347,17 @@ body, html, header {
       text-transform: uppercase;
       color: #f1f1f1;
       background: none;
-      margin: 0px 20px; }
+      margin: 0px 20px; 
+    }
+    #wrap-product .product .btn-product a.btn-item:hover{
+      background: #000;
+    }
+
+    #wrap-product .product .btn-product a.btn-item.active2{
+      background: orange;
+      color: #000;
+    }
+
   #wrap-product .product .tab-product {
     display: flex;
     flex-wrap: wrap;
@@ -266,7 +385,7 @@ body, html, header {
         z-index: 1000;
         text-align: center;
         opacity: 0;
-        transition: 0.4s; }
+        transition: 1s; }
       #wrap-product .product .tab-product .item-product a span {
         width: 100%;
         height: 100%;
@@ -324,7 +443,7 @@ body, html, header {
 #wrap-product .product .tab-product .item-product:hover span.nenden {
   opacity: 1; }
 
-@media (max-width: 728px) {
+@media (max-width: 798px) {
   * {
     margin: 0; }
   body {
@@ -352,10 +471,10 @@ body, html, header {
           display: block;
           text-align: center;
           width: 100%;
-          background: #595858; }
+          background: #111; }
           .top .topHeader .topHeader-menu .menu a:hover {
             color: lightblue;
-            background: #453d3a; }
+            background: #333; }
       .top .topHeader .topHeader-menu .menu.menuActive {
         opacity: 1;
         visibility: visible;
@@ -377,7 +496,9 @@ body, html, header {
     background: none;
     padding: 0;
     box-sizing: border-box;
-    margin-bottom: 200px; }
+    margin-bottom: 300px;
+    overflow: hidden;
+    }
     section.section-b .item-service {
       margin-bottom: 20px; }
     section.section-b .tab-service {
@@ -396,6 +517,9 @@ body, html, header {
     right: 30px;
     font-size: 50px; } 
     
+    .top .topHeader .topHeader-menu.fixed{
+      display: none;
+    }
 .container.footer-tab{
   padding-right: 20px;
   padding-left: 20px;

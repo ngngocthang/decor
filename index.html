@@ -31,6 +31,7 @@
 											<i class="fa fa-clock-o"></i>Giờ làm việc: <strong>08:00-17:00</strong>
 										</li>
 									</ul>
+
 								</div> <!-- end topHeader-contact-info -->
 							</div>	
 							<div class="col-md-4 text-xs-right">
@@ -39,6 +40,7 @@
 										<i class="fa fa-twitter"></i>
 										<i class="fa fa-google-plus"></i>
 										<i class="fa fa-youtube"></i>
+										<button class="btn btn-login">Login</button>
 								</div><!--  .mxh -->
 							</div>
 						</div> 
@@ -66,7 +68,19 @@
 				</div> <!-- end topHeader -->
 		</div> <!-- end top -->
 	</header>
-
+	
+	<div id="dangnhap">
+		<div id="login">
+			<h3>Dang nhap</h3>
+			<form action="">
+				<label for="user">Tai khoan:</label><input type="text" placeholder="tai khoan..." id="user"><br />
+				<label for="pass">Mat khau:</label><input type="password" placeholder="mat khau..." id="pass"><br />
+				<button class="btn btn-danger">Dang nhap</button>
+			</form>
+			<i class="done-login fa fa-times"></i>
+		</div>
+		<div class="nenlogin"></div>
+	</div>
 	<section>
 		<div id="technique">
 			<div class="container">
@@ -177,14 +191,14 @@
 		
 			<div class="product">
 				<div class="btn-product">
-					<a href="" class="btn btn-item">Tất cả</a>
-					<a href="" class="btn btn-item">Tiệc cưới ngoài trời</a>
-					<a href="" class="btn btn-item">Tiệc cưới tại trung tâm</a>
-					<a href="" class="btn btn-item">Sinh nhật tại gia</a>
-					<a href="" class="btn btn-item">Sự kiện tại Bar</a>					
+					<a href="*" class="btn btn-item active2">Tất cả</a>
+					<a href=".tiec-outside" class="btn btn-item">Tiệc cưới ngoài trời</a>
+					<a href=".tiec-onside" class="btn btn-item">Tiệc cưới tại trung tâm</a>
+					<a href=".birthday" class="btn btn-item">Sinh nhật</a>
+					<a href=".event" class="btn btn-item">Sự kiện</a>					
 				</div> <!-- btn-product -->
 				<div class="tab-product">
-					<div class="item-product">
+					<div class="item-product tiec-outside">
 						<a href="">
 							<img src="images/hallowen.jpg" alt="">
 							<p class="text">Lorem ipsum dolor sit.</p>
@@ -200,7 +214,7 @@
 						</a>
 					</div>
 
-					<div class="item-product">
+					<div class="item-product tiec-outside">
 						<a href="">
 							<img src="images/hallowen.jpg" alt="">
 							<p class="text">Lorem ipsum dolor sit.</p>
@@ -208,7 +222,7 @@
 						</a>
 					</div>
 
-					<div class="item-product">
+					<div class="item-product event">
 						<a href="">
 							<img src="images/hallowen.jpg" alt="">
 							<p class="text">Lorem ipsum dolor sit.</p>
@@ -216,7 +230,7 @@
 						</a>
 					</div>
 
-					<div class="item-product">
+					<div class="item-product tiec-outside">
 						<a href="">
 							<img src="images/hallowen.jpg" alt="">
 							<p class="text">Lorem ipsum dolor sit.</p>
@@ -224,7 +238,7 @@
 						</a>
 					</div>
 
-					<div class="item-product">
+					<div class="item-product tiec-onside">
 						<a href="">
 							<img src="images/hallowen.jpg" alt="">
 							<p class="text">Lorem ipsum dolor sit.</p>
@@ -232,7 +246,7 @@
 						</a>
 					</div>
 
-					<div class="item-product">
+					<div class="item-product birthday">
 						<a href="">
 							<img src="images/hallowen.jpg" alt="">
 							<p class="text">Lorem ipsum dolor sit.</p>
@@ -240,7 +254,7 @@
 						</a>
 					</div>
 
-					<div class="item-product">
+					<div class="item-product tiec-outside">
 						<a href="">
 							<img src="images/hallowen.jpg" alt="">
 							<p class="text">Lorem ipsum dolor sit.</p>
@@ -248,7 +262,7 @@
 						</a>
 					</div>
 
-					<div class="item-product">
+					<div class="item-product birthday">
 						<a href="">
 							<img src="images/hallowen.jpg" alt="">
 							<p class="text">Lorem ipsum dolor sit.</p>
@@ -256,7 +270,7 @@
 						</a>
 					</div>
 
-					<div class="item-product">
+					<div class="item-product event">
 						<a href="">
 							<img src="images/hallowen.jpg" alt="">
 							<p class="text">Lorem ipsum dolor sit.</p>
@@ -264,7 +278,7 @@
 						</a>
 					</div>
 
-					<div class="item-product">
+					<div class="item-product tiec-onside">
 						<a href="">
 							<img src="images/hallowen.jpg" alt="">
 							<p class="text">Lorem ipsum dolor sit.</p>
@@ -272,7 +286,7 @@
 						</a>
 					</div>
 
-					<div class="item-product">
+					<div class="item-product event">
 						<a href="">
 							<img src="images/hallowen.jpg" alt="">
 							<p class="text">Lorem ipsum dolor sit.</p>
@@ -280,7 +294,7 @@
 						</a>
 					</div>
 
-					<div class="item-product">
+					<div class="item-product birthday">
 						<a href="">
 							<img src="images/hallowen.jpg" alt="">
 							<p class="text">Lorem ipsum dolor sit.</p>
@@ -333,6 +347,7 @@
 	</div>
 </footer>
 
+<div id="backtotop">TOP</div>
 
 
 
@@ -358,7 +373,7 @@
 
 
 
-
+	<script src="vendor/isotope.pkgd.min.js"></script>
  	<script type="text/javascript" src="1.js"></script>
 </body>
 </html>
