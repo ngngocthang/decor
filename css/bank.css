@@ -2,12 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: "Open Sans",Arial, Helvetica, sans-serif; }
-.logo a{
-        text-decoration: none;
-        text-transform: uppercase;
-        color: #fff;
-        font-size: 35px;
-}
+
 .gachduoi:after {
         content: "";
         position: absolute;
@@ -276,8 +271,7 @@ body, html, header {
     #technique .technique-item .img {
       width: 100%;
       height: 220px;
-      background-size: contain;
-      }
+      background-size: cover; }
 
 .section-b {
   background: #606060;
@@ -372,10 +366,9 @@ body, html, header {
     width: 100%; }
     #wrap-product .product .tab-product .item-product {
       width: 25%;
-      height: 250px;
+      height: auto;
       position: relative;
-      overflow: hidden;
-      }
+      overflow: hidden; }
       #wrap-product .product .tab-product .item-product a img {
         width: 100%;
         height: 100%;
@@ -386,18 +379,15 @@ body, html, header {
         top: 50%;
         left: 50%;
         -webkit-transform: scale(0);
-        transform: scale(0);
+                transform: scale(0);
         -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        color: #b3fa41;
+                transform: translate(-50%, -50%);
+        color: #f1f1f1;
         text-transform: uppercase;
         z-index: 1000;
         text-align: center;
         opacity: 0;
-        transition: 1s;
-        font-family: monospace;
-        font-size: 22px;
-        }
+        transition: 1s; }
       #wrap-product .product .tab-product .item-product a span {
         width: 100%;
         height: 100%;
