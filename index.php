@@ -14,7 +14,7 @@
 
 <!-- Latest compiled and minified JavaScript -->
 
-	<link rel="stylesheet" href="vendor/animate.css">
+	<link rel="stylesheet" href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css">
  	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
